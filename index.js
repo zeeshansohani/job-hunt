@@ -16,7 +16,7 @@ app.use(express.json()); // req sent in JSON format
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 const corsOptions = {
-  origin: "https://job-hunt-now.netlify.app/",
+  origin: "https://job-hunt-now.netlify.app",
   credentials: true,
 };
 app.use(cors(corsOptions));
